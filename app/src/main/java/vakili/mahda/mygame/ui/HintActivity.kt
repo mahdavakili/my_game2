@@ -8,6 +8,7 @@ import vakili.mahda.mygame.R
 import vakili.mahda.mygame.utils.PrefConstant
 import vakili.mahda.mygame.utils.PrefConstant.SHARED_PREFERENCE_NAME
 
+
 class HintActivity : AppCompatActivity() {
 
     lateinit var sharedPreferences: SharedPreferences

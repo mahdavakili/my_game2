@@ -6,14 +6,15 @@ import android.os.Bundle
 import android.view.View
 import vakili.mahda.mygame.R
 import vakili.mahda.mygame.utils.PrefConstant
+import vakili.mahda.mygame.utils.PrefConstant.ENERGY
 import android.content.SharedPreferences as SharedPreferences
 
 
 //
 class SplashActivity : AppCompatActivity() {
     lateinit var sharedPreferences: SharedPreferences
-    
-    
+    lateinit var editor:SharedPreferences.Editor
+    var ener = 5
         override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
@@ -35,5 +36,8 @@ class SplashActivity : AppCompatActivity() {
         } else {
             val intent = Intent(this, HintActivity::class.java)
             startActivity(intent)
+            editor = sharedPreferences.edit()
+            editor.putInt(ENERGY.toString(), ener)
+            editor.commit()
         }    }
 }

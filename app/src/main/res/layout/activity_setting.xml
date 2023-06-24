@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.SettingActivity">
 
-    <TextView
-        android:id="@+id/textView2"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Setting"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="352dp" />
+        android:text="back"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="185dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,30 +5,37 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import vakili.mahda.mygame.R
-import vakili.mahda.mygame.utils.PrefConstant
-import vakili.mahda.mygame.utils.PrefConstant.SHARED_PREFERENCE_NAME
+import vakili.mahda.mygame.databinding.ActivityHintBinding
+import vakili.mahda.mygame.utils.PrefConstant.IS_LOGGED_IN
+
 
 
 class HintActivity : AppCompatActivity() {
 
     lateinit var sharedPreferences: SharedPreferences
     lateinit var editor:SharedPreferences.Editor
+    private lateinit var binding: ActivityHintBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hint)
+        binding = ActivityHintBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         setupSharedPreferences()
         saveLoginState()
+        binding.Play.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun saveLoginState() {
         editor = sharedPreferences.edit()
-        editor.putBoolean(PrefConstant.IS_LOGGED_IN, true)
+        editor.putBoolean(IS_LOGGED_IN, true)
         editor.apply()
     }
 
     private fun setupSharedPreferences() {
-        sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_NAME, MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences(IS_LOGGED_IN, MODE_PRIVATE)
     }
 }

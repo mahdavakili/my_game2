@@ -2,7 +2,11 @@ package vakili.mahda.mygame.utils
 
 object PrefConstant {
 
-    val SHARED_PREFERENCE_NAME = "notes_app_pref"
     val IS_LOGGED_IN = "is logged in"
-    var ENERGY = 5
+    val ENERGY = 5
+    val HOUR = "HOUR"
+    val MIN = "MIN"
+    val SECOND = "SECOND"
+    val DAY = "DAY"
+
 }

@@ -25,7 +25,7 @@ class SplashActivity : AppCompatActivity() {
 
 
     private fun setupSharedPreference() {
-        sharedPreferences = getSharedPreferences(PrefConstant.SHARED_PREFERENCE_NAME, MODE_PRIVATE)    }
+        sharedPreferences = getSharedPreferences(PrefConstant.IS_LOGGED_IN, MODE_PRIVATE)    }
 
 
     private fun checkLoginStatus() {

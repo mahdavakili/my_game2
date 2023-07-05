@@ -3,6 +3,7 @@ package vakili.mahda.mygame.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.annotation.CallSuper
 import vakili.mahda.mygame.R
 import vakili.mahda.mygame.databinding.ActivityPlayBinding
 
@@ -54,8 +55,8 @@ class PlayActivity : AppCompatActivity() {
 
 
         binding.imageButtonBack.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+
+            onBackPressed()
 
         }
 

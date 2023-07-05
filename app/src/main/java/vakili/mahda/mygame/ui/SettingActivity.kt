@@ -16,8 +16,7 @@ class SettingActivity : AppCompatActivity() {
 
 
         binding.button.setOnClickListener {
-            val intent = Intent(this, PlayActivity::class.java)
-            startActivity(intent)
+            onBackPressed()
         }
     }
 }

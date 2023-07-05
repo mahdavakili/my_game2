@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     lateinit var sharedPreferences: SharedPreferences
     lateinit var editor:SharedPreferences.Editor
-    var ener = 5
+    var ener = 0
     @RequiresApi(Build.VERSION_CODES.O)
     var now = LocalDateTime.now()
     @RequiresApi(Build.VERSION_CODES.O)
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             if (ener == 5){
                 saveTime()
             }
-            ener--
+            ener = ener-1
             editor = sharedPreferences.edit()
             editor.putInt(getString(R.string.ENERGY), ener)
             editor.commit()
@@ -171,7 +171,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 override fun onFinish() {
-                    ener++
+                    ener = ener+1
                     editor = sharedPreferences.edit()
                     editor.putInt(getString(R.string.ENERGY), ener)
                     editor.commit()

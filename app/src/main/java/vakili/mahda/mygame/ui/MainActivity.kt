@@ -8,17 +8,11 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import vakili.mahda.mygame.R
 import vakili.mahda.mygame.databinding.ActivityMainBinding
-import vakili.mahda.mygame.utils.PrefConstant.DAY
 import vakili.mahda.mygame.utils.PrefConstant.ENERGY
-import vakili.mahda.mygame.utils.PrefConstant.HOUR
-import vakili.mahda.mygame.utils.PrefConstant.MIN
 import vakili.mahda.mygame.utils.PrefConstant.SECOND
 import java.time.LocalDateTime
-import java.time.LocalTime
 import java.time.ZoneOffset
-import kotlin.time.Duration.Companion.minutes
 
 
 class MainActivity : AppCompatActivity() {
@@ -62,10 +56,8 @@ class MainActivity : AppCompatActivity() {
             if (ener == 5){
                 saveTime()
             }
-            ener = ener-1
-            editor = sharedPreferences.edit()
-            editor.putInt(getString(R.string.ENERGY), ener)
-            editor.commit()
+            ener -= 1
+            saveEnergy()
             startActivity(intent)
 
 
@@ -147,42 +139,37 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-    @RequiresApi(Build.VERSION_CODES.O)
-    private fun saveTime() {
-        editor = sharedPreferences.edit()
-        editor.putLong(SECOND, second)
-        editor.commit()
-    }
 
+
+    @SuppressLint("SetTextI18n")
     @RequiresApi(Build.VERSION_CODES.O)
     private fun setupTimer() {
         val savedSecond = sharedPreferences.getLong(SECOND, 0)
-        val enerDifference = 5-ener
-        val secondDiffrence = (second-savedSecond)
-        val rem = (secondDiffrence%300)*1000
-        val div: Int = ((secondDiffrence-rem)/300).toInt()
-        if (secondDiffrence<enerDifference*300){
+        val enerDiff = 5-ener
+        val secondDiff = (second-savedSecond)
+        val rem = (300-(secondDiff%300))*1000
+        val rem2 = secondDiff%300
+        val div: Int = ((secondDiff-rem2)/300).toInt()
+        if (secondDiff<enerDiff*300){
 
-            ener = ener + div
+            ener += div
             object : CountDownTimer(rem, 1000) {
 
+
                 override fun onTick(millisUntilFinished: Long) {
-                    binding.time.setText("" + millisUntilFinished/ 1000)
+                    binding.time.text = "" + millisUntilFinished/ 1000
                 }
 
                 override fun onFinish() {
-                    ener = ener+1
-                    editor = sharedPreferences.edit()
-                    editor.putInt(getString(R.string.ENERGY), ener)
-                    editor.commit()
+                    ener += 1
+                    saveEnergy()
+                    binding.energyButton.text = ener.toString()
                 }
             }.start()
         }else{
             ener = 5
-            editor = sharedPreferences.edit()
-            editor.putInt(getString(R.string.ENERGY), ener)
-            editor.commit()
-            binding.time.text = "full"
+            saveEnergy()
+            binding.time.text = "Full"
 
         }
 
@@ -198,7 +185,17 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
+    private fun saveEnergy() {
+        editor = sharedPreferences.edit()
+        editor.putInt(ENERGY.toString(), ener)
+        editor.commit()
+    }
+    @RequiresApi(Build.VERSION_CODES.O)
+    private fun saveTime() {
+        editor = sharedPreferences.edit()
+        editor.putLong(SECOND, second)
+        editor.commit()
+    }
 }
 
 

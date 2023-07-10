@@ -7,7 +7,7 @@
     tools:context=".ui.PlayActivity">
 
     <ImageButton
-        android:id="@+id/imageButtonBack"
+        android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/baseline_arrow_back_24" />
 
     <TextView
-        android:id="@+id/textMoves"
+        android:id="@+id/moves"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
@@ -36,7 +36,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

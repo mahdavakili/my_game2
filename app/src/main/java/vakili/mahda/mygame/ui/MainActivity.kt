@@ -10,6 +10,8 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import vakili.mahda.mygame.databinding.ActivityMainBinding
 import vakili.mahda.mygame.utils.PrefConstant.ENERGY
+import vakili.mahda.mygame.utils.PrefConstant.LEVEL
+import vakili.mahda.mygame.utils.PrefConstant.SATOSHI
 import vakili.mahda.mygame.utils.PrefConstant.SECOND
 import java.time.LocalDateTime
 import java.time.ZoneOffset
@@ -24,22 +26,32 @@ class MainActivity : AppCompatActivity() {
     var now = LocalDateTime.now()
     @RequiresApi(Build.VERSION_CODES.O)
     var second = now.toEpochSecond(ZoneOffset.UTC)
-    lateinit var mon:String
+    var satoshi = 0
+    var button5 = false
+    var button10 = false
+    var button15 = false
+    var level = 0
 
 
     @RequiresApi(Build.VERSION_CODES.O)
-    @SuppressLint("SuspiciousIndentation")
+    @SuppressLint("SuspiciousIndentation", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        var button5 = false
-        var button10 = false
-        var button15 = false
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setupSharedPreferences()
         ener = sharedPreferences.getInt(ENERGY.toString(), 5)
+        // get level saved
+        level = sharedPreferences.getInt(LEVEL.toString(), 0)
+        satoshi = sharedPreferences.getInt(SATOSHI.toString(), 0)
+
         setupTimer()
         binding.energyButton.text = ener.toString()
+        // show level
+        binding.textViewLevel.text = "Level $level"
+        binding.textViewBalanceValue.text = satoshi.toString()
+
         if (ener==0){
             binding.playButton.isClickable= false
         }
@@ -50,19 +62,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SettingActivity::class.java)
             startActivity(intent)
         }
-
-        binding.playButton.setOnClickListener {
-            val intent = Intent(this, PlayActivity::class.java)
-            if (ener == 5){
-                saveTime()
-            }
-            ener -= 1
-            saveEnergy()
-            startActivity(intent)
-
-
-        }
-
 
 
         binding.inviteButton.setOnClickListener {
@@ -95,7 +94,7 @@ class MainActivity : AppCompatActivity() {
                 binding.imageView5.alpha = 0F
                 button5 = false
             }
-
+            binding.textViewBalanceExchange.text = button5.toString()
         }
         binding.button10.setOnClickListener{
             if (button10 == false) {
@@ -133,11 +132,32 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+        binding.playButton.setOnClickListener {
+            val intent = Intent(this, PlayActivity::class.java)
+            with(intent)
+            {
+                putExtra("BUTTON5", button5)
+                putExtra("BUTTON10", button10)
+                putExtra("BUTTON15", button15)
+            }
 
+            if (ener == 5){
+                saveTime()
+            }
+            level +=1
+            saveLevel()
+            ener -= 1
+            if (ener==0){
+                binding.playButton.isClickable= false
+            }
+            saveEnergy()
+            startActivity(intent)
 
 
         }
 
+
+        }
 
 
 
@@ -180,7 +200,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupSharedPreferences() {
         sharedPreferences = getSharedPreferences(ENERGY.toString(), MODE_PRIVATE)
+        // get shared-preferences
+        sharedPreferences = getSharedPreferences(LEVEL.toString(), MODE_PRIVATE)
+        //
         sharedPreferences = getSharedPreferences(SECOND, MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences(SATOSHI.toString(), MODE_PRIVATE)
+
 
 
     }
@@ -196,7 +221,14 @@ class MainActivity : AppCompatActivity() {
         editor.putLong(SECOND, second)
         editor.commit()
     }
+    // save level
+    private fun saveLevel() {
+        editor = sharedPreferences.edit()
+        editor.putInt(LEVEL.toString(), level)
+        editor.commit()    }
+
 }
+
 
 
 

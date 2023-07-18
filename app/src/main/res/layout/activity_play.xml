@@ -66,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -78,7 +78,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView1"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -90,7 +90,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -102,7 +102,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -114,7 +114,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -126,7 +126,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView1"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -138,7 +138,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -150,7 +150,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -162,7 +162,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -174,7 +174,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -186,7 +186,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -198,7 +198,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -210,7 +210,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -222,7 +222,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -234,7 +234,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -246,7 +246,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -258,7 +258,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -270,7 +270,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView17"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -283,7 +283,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toBottomOf="@+id/imageView14"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -295,7 +295,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -307,7 +307,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -319,7 +319,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView21"
         app:layout_constraintTop_toBottomOf="@+id/imageView17"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -331,7 +331,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView22"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -343,7 +343,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView23"
         app:layout_constraintTop_toBottomOf="@+id/imageView19"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -355,7 +355,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView24"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -367,7 +367,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -379,7 +379,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView26"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -391,7 +391,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView27"
         app:layout_constraintTop_toBottomOf="@+id/imageView23"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -403,7 +403,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView28"
         app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -415,7 +415,398 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView29"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:srcCompat="@drawable/ic_launcher_background"
+        app:srcCompat="@drawable/close"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView012"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView062"
+        app:layout_constraintEnd_toStartOf="@+id/imageView022"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView022"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView072"
+        app:layout_constraintEnd_toStartOf="@+id/imageView032"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView012"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView032"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView082"
+        app:layout_constraintEnd_toStartOf="@+id/imageView042"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView022"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView042"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView092"
+        app:layout_constraintEnd_toStartOf="@+id/imageView052"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView032"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView052"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView102"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView042"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView062"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView112"
+        app:layout_constraintEnd_toStartOf="@+id/imageView072"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView012"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView072"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView122"
+        app:layout_constraintEnd_toStartOf="@+id/imageView082"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView062"
+        app:layout_constraintTop_toBottomOf="@+id/imageView022"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView082"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView132"
+        app:layout_constraintEnd_toStartOf="@+id/imageView092"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView072"
+        app:layout_constraintTop_toBottomOf="@+id/imageView032"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView092"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView142"
+        app:layout_constraintEnd_toStartOf="@+id/imageView102"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView082"
+        app:layout_constraintTop_toBottomOf="@+id/imageView042"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView152"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView092"
+        app:layout_constraintTop_toBottomOf="@+id/imageView052"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView162"
+        app:layout_constraintEnd_toStartOf="@+id/imageView122"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView062"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView122"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView172"
+        app:layout_constraintEnd_toStartOf="@+id/imageView132"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView112"
+        app:layout_constraintTop_toBottomOf="@+id/imageView072"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView132"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView182"
+        app:layout_constraintEnd_toStartOf="@+id/imageView142"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView122"
+        app:layout_constraintTop_toBottomOf="@+id/imageView082"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView142"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView192"
+        app:layout_constraintEnd_toStartOf="@+id/imageView152"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView132"
+        app:layout_constraintTop_toBottomOf="@+id/imageView092"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView152"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView142"
+        app:layout_constraintTop_toBottomOf="@+id/imageView102"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView162"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView212"
+        app:layout_constraintEnd_toStartOf="@+id/imageView172"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView112"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView172"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView222"
+        app:layout_constraintEnd_toStartOf="@+id/imageView182"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView162"
+        app:layout_constraintTop_toBottomOf="@+id/imageView122"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView182"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView232"
+        app:layout_constraintEnd_toStartOf="@+id/imageView192"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView172"
+        app:layout_constraintTop_toBottomOf="@+id/imageView132"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView192"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView242"
+        app:layout_constraintEnd_toStartOf="@+id/imageView202"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView182"
+        app:layout_constraintTop_toBottomOf="@+id/imageView142"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView202"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView252"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView192"
+        app:layout_constraintTop_toBottomOf="@+id/imageView152"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView212"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView262"
+        app:layout_constraintEnd_toStartOf="@+id/imageView222"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView162"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView222"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView272"
+        app:layout_constraintEnd_toStartOf="@+id/imageView232"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView212"
+        app:layout_constraintTop_toBottomOf="@+id/imageView172"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView232"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView282"
+        app:layout_constraintEnd_toStartOf="@+id/imageView242"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView222"
+        app:layout_constraintTop_toBottomOf="@+id/imageView182"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView242"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView292"
+        app:layout_constraintEnd_toStartOf="@+id/imageView252"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView232"
+        app:layout_constraintTop_toBottomOf="@+id/imageView192"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView252"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView302"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView242"
+        app:layout_constraintTop_toBottomOf="@+id/imageView202"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView262"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView272"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView212"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView272"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView282"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView262"
+        app:layout_constraintTop_toBottomOf="@+id/imageView222"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView282"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView292"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView272"
+        app:layout_constraintTop_toBottomOf="@+id/imageView232"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView292"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView302"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView282"
+        app:layout_constraintTop_toBottomOf="@+id/imageView242"
+        app:srcCompat="@drawable/open"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView302"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView292"
+        app:layout_constraintTop_toBottomOf="@+id/imageView252"
+        app:srcCompat="@drawable/open"
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline
